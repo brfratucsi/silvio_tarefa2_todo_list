@@ -1,16 +1,5 @@
 # silvio_tarefa2_todo_list
 
-A new Flutter project.
+Esta tarefa consiste na criação de um aplicativo de lista de tarefas que persista as tarefas em arquivo.
 
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+O arquivo que manterá os dados da lista de tarefa será um arquivo JSON e utilizaremos os pacotes path_provider e intl como suporte ao App; o path_provider irá fornecer um modo único de acesso à localização do arquivo de dados nas plataformas suportadas pelo Flutter; o intl nos fornece uma uma interface para formatar datas de forma simplificada. 
